@@ -21,6 +21,49 @@ namespace List_practice
             luckyNumbers.Add(3);
             luckyNumbers.Add(5);
             luckyNumbers.Add(7);
+            //Console.WriteLine(luckyNumbers.Count());
+
+
+            List<string> faveFoods = new List<string>() { "sushi", "A really good burger", "Pupuseria la benedicion", "Mom's rice and beans" };
+
+            //Check list by printing elements
+            //Console.WriteLine(faveFoods[0]);
+            //Console.WriteLine(faveFoods[1]);
+            //Console.WriteLine(faveFoods[3]);
+
+            List<string> leastFaveFoods = new List<string>();
+            leastFaveFoods.Add("vinegar");
+            leastFaveFoods.Add("olives");
+            leastFaveFoods.Add("'raw' stuff");
+            //Console.WriteLine(leastFaveFoods[0]);
+
+            leastFaveFoods[0] = "pizza";
+            //Console.WriteLine(leastFaveFoods[0]);
+
+            List<string> faveFilms = new List<string>() { "Aliens", "Old Boy", "Arrival", "The Lego Movie" };
+            for (int i = 0; i< faveFilms.Count; i++)
+            {
+                //Console.WriteLine(faveFilms[i]);
+            }
+
+            foreach (string movie in faveFilms)
+            {
+                //Console.WriteLine(movie);
+            }
+
+            faveFilms.Remove("Aliens");
+            faveFilms.Add("Bladerunner 2049");
+            faveFilms.Add("Scott Pilgrim Vs. The World");
+
+            foreach (string movie in faveFilms)
+                //Console.WriteLine(movie);
+
+
+            //Inserts at index, pushes others over 
+            faveFilms.Insert(0, "Aliens");
+
+
+
         }
     }
 }
