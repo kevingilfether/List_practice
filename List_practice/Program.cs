@@ -13,13 +13,13 @@ namespace List_practice
             // Common List methods
             //Count - returns number of items in list;
             //Clear - Removes all elements from list
-            //Add
-            //Remove
-            //Sort
-            //IndexOf
+            //Add - Adds item to end of list
+            //Remove - Removes first occurence of item in list
+            //Sort - Sorts elements in list using default comparer (alpha numeric)
+            //IndexOf - Returns index of first occurence within range of items
             //Contains -- Determines whether a list contains an item
-            //RemoveAt
-            //Insert
+            //RemoveAt - Removes item at specified index
+            //Insert - inserts at index an item
 
 
             //Setting up a list of test scores
